@@ -13,6 +13,8 @@
 		3134F319144EBD2B00696427 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3134F317144EBD2B00696427 /* Credits.rtf */; };
 		3134F31C144EBD2B00696427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3134F31B144EBD2B00696427 /* AppDelegate.m */; };
 		3134F31F144EBD2C00696427 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3134F31D144EBD2C00696427 /* MainMenu.xib */; };
+		313E666F144EC4CA00E691EA /* SheetOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E666E144EC4CA00E691EA /* SheetOwner.m */; };
+		313E6673144EC4E100E691EA /* Sheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313E6671144EC4E100E691EA /* Sheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		3134F30B144EBD2B00696427 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3134F30C144EBD2B00696427 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3134F30D144EBD2B00696427 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3134F310144EBD2B00696427 /* NumbWindow-Info.plist */ = {isa = PBXFileReference; path = "NumbWindow-Info.plist"; sourceTree = "<group>"; };
+		3134F310144EBD2B00696427 /* NumbWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumbWindow-Info.plist"; sourceTree = "<group>"; };
 		3134F312144EBD2B00696427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3134F314144EBD2B00696427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3134F316144EBD2B00696427 /* NumbWindow-Prefix.pch */ = {isa = PBXFileReference; path = "NumbWindow-Prefix.pch"; sourceTree = "<group>"; };
+		3134F316144EBD2B00696427 /* NumbWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumbWindow-Prefix.pch"; sourceTree = "<group>"; };
 		3134F318144EBD2B00696427 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		3134F31A144EBD2B00696427 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3134F31A144EBD2B00696427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3134F31B144EBD2B00696427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3134F31E144EBD2C00696427 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		313E666D144EC4CA00E691EA /* SheetOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheetOwner.h; sourceTree = "<group>"; };
+		313E666E144EC4CA00E691EA /* SheetOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheetOwner.m; sourceTree = "<group>"; };
+		313E6672144EC4E100E691EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Sheet.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				3134F31A144EBD2B00696427 /* AppDelegate.h */,
 				3134F31B144EBD2B00696427 /* AppDelegate.m */,
 				3134F31D144EBD2C00696427 /* MainMenu.xib */,
+				313E666D144EC4CA00E691EA /* SheetOwner.h */,
+				313E666E144EC4CA00E691EA /* SheetOwner.m */,
+				313E6671144EC4E100E691EA /* Sheet.xib */,
 				3134F30F144EBD2B00696427 /* Supporting Files */,
 			);
 			path = NumbWindow;
@@ -155,6 +163,7 @@
 				3134F313144EBD2B00696427 /* InfoPlist.strings in Resources */,
 				3134F319144EBD2B00696427 /* Credits.rtf in Resources */,
 				3134F31F144EBD2C00696427 /* MainMenu.xib in Resources */,
+				313E6673144EC4E100E691EA /* Sheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				3134F315144EBD2B00696427 /* main.m in Sources */,
 				3134F31C144EBD2B00696427 /* AppDelegate.m in Sources */,
+				313E666F144EC4CA00E691EA /* SheetOwner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +205,14 @@
 				3134F31E144EBD2C00696427 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		313E6671144EC4E100E691EA /* Sheet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313E6672144EC4E100E691EA /* en */,
+			);
+			name = Sheet.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +304,7 @@
 				3134F324144EBD2C00696427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
