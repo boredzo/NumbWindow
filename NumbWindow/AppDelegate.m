@@ -27,6 +27,10 @@
 	self.sheetOwner = nil;
 }
 
+- (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+	return YES;
+}
+
 - (IBAction)showSheet:(id)sender {
 	[self.sheetOwner showSheetOnWindow:self.window];
 }
